@@ -68,7 +68,7 @@ $client_query= "SELECT * from table";
 
 Good Day!
 
-Cashalo Loan ".$loan_id." has been approved for ".$name." in ".$pos."
+Lender Loan ".$loan_id." has been approved for ".$name." in ".$pos."
  
 Loan Details:
  
@@ -80,11 +80,11 @@ Monthly Amount Due: PHP ".$monthly_ins."
 Term: ".$tenor." months
 Product Type: ".$pos_type."
  
-Please only accept transaction with the Cashalo Sales Officer.
+Please only accept transaction with the Lender Sales Officer.
  
 Thank you very much!
 
-The Cashalo Team
+The Lender Team
 ";
             //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
         
