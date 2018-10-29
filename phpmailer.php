@@ -7,10 +7,10 @@ use PHPMailer\PHPMailer\Exception;
 //Load composer's autoloader
 require 'vendor/autoload.php';
 
-$host="prod-rep3.cfti8umsjnvm.ap-southeast-1.rds.amazonaws.com"; // Host name
+$host="host"; // Host name
 $username="Sample_monitor"; // MySQL username
 $password="aabb1122"; // MySQL password
-$db_name="trade"; // Database Name
+$db_name="sample_db // Database Name
 
 // Connect to server and select database.
 $con=mysqli_connect($host,$username,$password,$db_name) or die("cannot connect");
